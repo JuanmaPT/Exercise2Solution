@@ -21,13 +21,13 @@
  > *A data race occurs when 2 instructions from different threads access the same memory location, at least one of these accesses is a write and there is no synchronization that is mandating any particular order among these accesses.*
 
 ### List some advantages of using message passing over lock-based synchronization primitives.
-> *-It is easier to build massively parallel hardware. Message passing programming models tend to be more tolerant of higher communication latencies.
+> *-It is easier to build massively parallel hardware. Message passing programming models tend to be more tolerant of higher communication latencies.*
 
 > *-The communication is explicit, simpler to understand.*
 
 ### List some advantages of using lock-based synchronization primitives over message passing.
-> *-Some algorithms tend to be much simpler.
+> *-Some algorithms tend to be much simpler.*
 
-> *-A message passing system that requires resources to be locked will eventually degenerate into a shared object systems.
+> *-A message passing system that requires resources to be locked will eventually degenerate into a shared object systems.*
 
 > *-If algorithms are wait-free, you will see improved performance and reduced memory footprint as there is much less object allocation in the form of new messages.*

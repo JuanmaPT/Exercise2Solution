@@ -8,6 +8,9 @@ In your solution, make sure that the two threads intermingle. Running them one a
 ### C
 
  - POSIX has both mutexes ([`pthread_mutex_t`](http://pubs.opengroup.org/onlinepubs/7990989775/xsh/pthread.h.html)) and semaphores ([`sem_t`](http://pubs.opengroup.org/onlinepubs/7990989775/xsh/semaphore.h.html)). Which one should you use?
+
+> *Since we only have the variable i that should be locked. The lock is owned by a thread and at some point the thread is expected to release the lock (when it modify the shared variable i).*
+
  - Acquire the lock, do your work in the critical section, and release the lock
 
 
