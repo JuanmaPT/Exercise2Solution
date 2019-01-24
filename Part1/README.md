@@ -23,7 +23,7 @@
 ### List some advantages of using message passing over lock-based synchronization primitives.
 > *-It is easier to build massively parallel hardware. Message passing programming models tend to be more tolerant of higher communication latencies.
 
--The communication is explicit, simpler to understand.*
+> *-The communication is explicit, simpler to understand.*
 
 ### List some advantages of using lock-based synchronization primitives over message passing.
 > *-Some algorithms tend to be much simpler.
