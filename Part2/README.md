@@ -27,6 +27,7 @@ Remember from Exercise 1 where we had no good way of waiting for a goroutine to 
 
 
 In the theory part you listed some advantages with message passing and shared variable synchronization. Do you still agree with what you answered?
+> *This is a really small problem. The adventages, in this case, are "hide" .*
 
 ### Python
 
